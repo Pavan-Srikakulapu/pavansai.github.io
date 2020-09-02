@@ -1,0 +1,57 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>RegisterServlet</servlet-name>
+  	<display-name>RegisterServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.Virtusa.CopFriendlyApp.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<display-name>LoginServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.Virtusa.CopFriendlyApp.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LogoutServlet</servlet-name>
+  	<display-name>LogoutServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.Virtusa.CopFriendlyApp.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>violatorServelet</servlet-name>
+  	<display-name>violatorServelet</display-name>
+  	<description></description>
+  	<servlet-class>com.Virtusa.CopFriendlyApp.violatorServelet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>EmergencyServelet</servlet-name>
+  	<display-name>EmergencyServelet</display-name>
+  	<description></description>
+  	<servlet-class>com.Virtusa.CopFriendlyApp.EmergencyServelet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>RegisterServlet</servlet-name>
+  	<url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LogoutServlet</servlet-name>
+  	<url-pattern>/LogoutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>violatorServelet</servlet-name>
+  	<url-pattern>/violatorServelet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>EmergencyServelet</servlet-name>
+  	<url-pattern>/EmergencyServelet</url-pattern>
+  </servlet-mapping>
+</web-app>
